@@ -1,0 +1,17 @@
+# program to print union,intersection,difference,symmetric difference
+A={11,9,7,5,3,2,1,0}
+B={1,2,3,4,6,8,10}
+# union of two sets
+print(set(a.union(b)))
+# intersection of two sets
+print(set(a.intersection(b)))
+# difference of two sets
+print(set(a.difference(b)))
+# symmetric difference of two sets
+print(set(a.symmetric_difference(b)))
+
+output:
+{0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}
+{1, 2, 3}
+{0, 5, 7, 9, 11}
+{0, 4, 5, 6, 7, 8, 9, 10, 11}
